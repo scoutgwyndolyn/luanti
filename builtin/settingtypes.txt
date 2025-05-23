@@ -566,12 +566,12 @@ damage_flash_enable (Damage flash) bool true
 #   when the player takes damage
 damage_tilt_enable (Damage shake) bool true
 
-#   Damage tilt strength. Controls the force of 
+#   Damage tilt strength. Controls the force of
 #   camera shakes from taking damage
 damage_tilt_strength (Damage shake strength) float 1.0 0.0 2.0
 
 #   Damage tilt duration modifier. Controls the duration of
-#   camera shakes from taking damage. 
+#   camera shakes from taking damage.
 #   0.0 for no time, 1.0 for normal time, 2.0 for twice as long.
 damage_tilt_duration (Damage shake duration) float 1.0 0.0 2.0
 
