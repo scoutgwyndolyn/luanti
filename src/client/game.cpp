@@ -2693,7 +2693,7 @@ void Game::handleClientEvent_PlayerDamage(ClientEvent *event, CameraOrientation 
 		}
 
 		f32 tilt_duration = g_settings->getFloat("damage_tilt_duration");
-		if (tilt_duration > 0 && g_settings->getBool("damage_tilt_enable")) {
+		if (tilt_duration > 0.0f && g_settings->getBool("damage_tilt_enable")) {
 			player->hurt_tilt_timer = 1.5f * tilt_duration;
 
 			f32 tilt_strength = g_settings->getFloat("damage_tilt_strength");
