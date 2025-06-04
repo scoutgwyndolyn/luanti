@@ -217,8 +217,7 @@ keymap_cmd (Command) key SYSTEM_SCANCODE_56
 #    Key for opening the chat window to type local commands.
 keymap_cmd_local (Local command) key SYSTEM_SCANCODE_55
 
-#    Key for toggling unlimited view range.
-keymap_rangeselect (Range select) key
+keymap_rangeselect (Toggle unlimited view range) key
 
 keymap_freemove (Toggle fly) key SYSTEM_SCANCODE_14
 
